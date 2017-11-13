@@ -10,6 +10,11 @@
     The risk aversion remains constant at 3. There are 3 output files, each with the optimized
     values calculated in the Black-Litterman (BL) model.
 
+## Black_Litterman_simple
+    This is another main file, only with one scenario. All the outputs and functions are the same.
+    Created to allow ease of use and simpler exchange of variables in solving for a single
+    optimal portfolio.
+
 ## fBL_read
     This is the function that reads the return data excel file. Raw returns and T-bill returns (for
     the risk free rate) are taken as vectors. It then calculates the excess returns, and the
