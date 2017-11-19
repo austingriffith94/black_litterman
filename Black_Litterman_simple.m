@@ -37,7 +37,7 @@ Tv = 0.01;
 %managers view
 %US excess of 1.5
 %Foreign outperforms EM by 3
-%EM underperforms by 2
+%EM underperforms by 1
 P = [1,0,0; 0,1,-1;0,0,-1];
 Q = [0.015; 0.03; 0.01];
 
