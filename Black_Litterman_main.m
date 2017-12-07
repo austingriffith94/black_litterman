@@ -2,7 +2,7 @@
 %Black Litterman code for matlab
 %MATLAB R2015b
 %return data excel file should be within the same folder as this code
-%code runs 3 different scenarios of black litterman and outputs to excel
+%runs 3 different scenarios of black litterman and outputs to excel
 
 clear;
 
@@ -19,6 +19,7 @@ xlrange_rf = 'B2:B325';
 [cov_returns1] = fBL_read(file_read,sheet_read,xlrange_data1,xlrange_rf);
 [cov_returns2] = fBL_read(file_read,sheet_read,xlrange_data2,xlrange_rf);
 
+%-----------------------------BL variables--------------------------%
 %estimated optimal weights for each asset classes and risk aversion
 %for this code, the weights and risk aversion
 %remain the same for each of the 3 scenarios
